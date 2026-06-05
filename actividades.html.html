@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CECYTE EMSaD 45 - Actividades</title>
+
+<style>
+
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#dfe6ee;
+}
+
+/* HEADER */
+
+header{
+    background: linear-gradient(to right,#6a11cb,#2575fc);
+    color:white;
+    padding:25px;
+    border-bottom:5px solid #ff00ff;
+}
+
+/* CONTENEDOR HEADER */
+
+.contenedor-header{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+/* LOGO */
+
+.logo{
+    width:210px;
+    background:white;
+    border-radius:20px;
+    padding:15px;
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+}
+
+.logo img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* TEXTOS */
+
+.textos{
+    flex:1;
+    text-align:center;
+}
+
+.textos h1{
+    font-size:45px;
+    font-weight:bold;
+    text-shadow:3px 3px 0px #ff4d6d;
+}
+
+.linea{
+    width:120px;
+    height:5px;
+    background:#00ffe7;
+    margin:15px auto;
+    border-radius:10px;
+}
+
+.textos h2{
+    color:#ffe600;
+    font-size:28px;
+}
+
+/* MENU */
+
+.menu{
+    background:#4b0082;
+    padding:18px;
+    text-align:center;
+    box-shadow:0 5px 10px rgba(0,0,0,0.3);
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-size:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.menu a:hover{
+    color:#00ffe7;
+}
+
+/* MAIN */
+
+main{
+    width:90%;
+    margin:40px auto;
+}
+
+/* TITULOS */
+
+.titulo{
+    text-align:center;
+    font-size:50px;
+    color:#243b5a;
+    margin-bottom:40px;
+}
+
+.subtitulo{
+    text-align:center;
+    font-size:40px;
+    color:#6a11cb;
+    margin:50px 0 30px;
+}
+
+/* TARJETAS */
+
+.tarjeta{
+    background:white;
+    border-radius:25px;
+    padding:30px;
+    margin-bottom:35px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+    border-top:6px solid #00ffe7;
+}
+
+.tarjeta h3{
+    text-align:center;
+    color:#6a11cb;
+    margin-bottom:20px;
+    font-size:35px;
+}
+
+.normal{
+    font-size:20px;
+    line-height:1.8;
+    text-align:justify;
+    color:#333;
+    margin-bottom:20px;
+}
+
+/* IMAGENES */
+
+.contenedor-img{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.contenedor-img img{
+    width:300px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    transition:0.3s;
+}
+
+.contenedor-img img:hover{
+    transform:scale(1.05);
+}
+
+/* FOTOS */
+
+.foto{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #00ffe7;
+    margin-bottom:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* FOOTER */
+
+footer{
+    background:#1b1b2f;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+    font-size:18px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.contenedor-header{
+    flex-direction:column;
+    text-align:center;
+}
+
+.textos h1{
+    font-size:30px;
+}
+
+.menu a{
+    display:block;
+    margin:15px 0;
+}
+
+.titulo{
+    font-size:35px;
+}
+
+.subtitulo{
+    font-size:30px;
+}
+
+.contenedor-img img{
+    width:100%;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+<div class="contenedor-header">
+
+<div class="logo">
+
+<img src="IMG/cecyteo.jpeg" alt="Logo">
+
+</div>
+
+<div class="textos">
+
+<h1>
+COLEGIO DE ESTUDIOS CIENTÍFICOS Y
+TECNOLÓGICOS DEL ESTADO DE OAXACA
+</h1>
+
+<div class="linea"></div>
+
+<h2>"CECYTE EMSaD 45 SAN PABLO TIJALTEPEC"</h2>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- MENU -->
+
+<nav class="menu">
+
+<a href="index.html.html">INICIO</a>
+
+<a href="inscripcion.html.html">INSCRIPCIÓN</a>
+
+<a href="beca.html.html">BECAS</a>
+
+<a href="docente.html.html">DOCENTES</a>
+
+<a href="pec.html.html">PEC</a>
+
+</nav>
+<!-- CONTENIDO -->
+
+<main>
+
+<h1 class="titulo">
+ACTIVIDADES DEPORTIVAS Y CULTURALES
+</h1>
+
+<!-- BASQUET -->
+
+<div class="tarjeta">
+
+<h3>Basquetbol</h3>
+
+<p class="normal">
+
+El basquetbol es una de las disciplinas deportivas más destacadas del plantel. Los estudiantes participan constantemente en encuentros municipales y regionales, fortaleciendo el trabajo en equipo, la disciplina y la convivencia sana.
+
+</p>
+
+<div class="contenedor-img">
+
+<img src="img/basqye.jfif">
+
+<img src="img/basquet2.jfif">
+
+</div>
+
+</div>
+
+<!-- FUTBOL -->
+
+<div class="tarjeta">
+
+<h3>Fútbol</h3>
+
+<p class="normal">
+
+El fútbol fomenta la condición física, la estrategia y la unión entre estudiantes. Los equipos representan orgullosamente al EMSaD 45 en torneos deportivos realizados en Magdalena Peñasco.
+
+</p>
+
+<div class="contenedor-img">
+
+<img src="img/ftuboil.jfif">
+
+</div>
+
+</div>
+
+<!-- ATLETISMO -->
+
+<div class="tarjeta">
+
+<h3>Atletismo</h3>
+
+<p class="normal">
+
+El atletismo ha permitido que estudiantes sobresalgan en competencias importantes. La alumna Yeni participó en etapas estatales y nacionales en la prueba de 100 metros planos.
+
+</p>
+
+<p class="normal">
+
+La estudiante Estelita también logró clasificar a la etapa nacional en la prueba de 10,000 metros.
+
+</p>
+
+<div class="contenedor-img">
+
+<img src="img/atlrtidmo.jfif">
+<img src="img/atletismo12.jpg">
+
+
+</div>
+
+</div>
+
+<!-- CULTURAL -->
+
+<h2 class="subtitulo">
+ACTIVIDADES CULTURALES
+</h2>
+
+<!-- DANZA -->
+
+<div class="tarjeta">
+
+<h3>Danza</h3>
+
+<p class="normal">
+
+La danza fortalece la identidad cultural y conserva las tradiciones de la región. El grupo obtuvo el triunfo en la etapa regional y logró avanzar a la etapa estatal.
+
+</p>
+
+<div class="contenedor-img">
+
+<img src="img/danza.jfif">
+
+<img src="img/dan1.jfif">
+
+</div>
+
+</div>
+
+<!-- CANTO -->
+
+<div class="tarjeta">
+
+<h3>Canto</h3>
+
+<div class="contenedor-img">
+
+<img src="img/canto.jfif">
+
+</div>
+
+</div>
+
+<!-- DECLAMACION -->
+
+<div class="tarjeta">
+
+<h3>Declamación</h3>
+
+<div class="contenedor-img">
+
+<img src="img/declmacion2.jfif">
+
+</div>
+
+</div>
+
+<!-- ESCOLTA -->
+
+<div class="tarjeta">
+
+<h3>Escolta</h3>
+
+<p class="normal">
+
+La escolta representa el respeto, la disciplina y los valores cívicos dentro de la institución. El equipo logró avanzar hasta la etapa regional.
+
+</p>
+
+<div class="contenedor-img">
+
+<img src="img/escolta.jfif">
+
+<img src="img/escolta2.jfif">
+
+</div>
+
+</div>
+
+<!-- EXPLICACION -->
+
+<div class="tarjeta">
+
+<h3>¿EN QUÉ CONSISTE?</h3>
+
+<p class="normal">
+
+Las actividades deportivas y culturales forman parte importante de la formación integral de los estudiantes, ya que ayudan a desarrollar habilidades físicas, sociales, artísticas y recreativas.
+
+</p>
+
+<p class="normal">
+
+Las actividades deportivas fomentan la salud, la disciplina, el trabajo en equipo y la convivencia sana.
+
+</p>
+
+<p class="normal">
+
+Las actividades culturales promueven las tradiciones, el arte, la creatividad y la identidad cultural mediante danza, música, poesía y eventos escolares.
+
+</p>
+
+</div>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+<!-- ICONOS -->
+
+<div class="redes">
+
+<a href="https://www.facebook.com/share/1DzuHPwMHF/?mibextid=wwXIfr" target="_blank">
+
+<img src="IMG/FACE.jfif" class="foto">
+
+</a>
+
+<a href="https://wa.me/529512576743" target="_blank">
+
+<img src="IMG/WHAS.png" class="foto">
+
+</a>
+
+<a href="https://maps.app.goo.gl/bvTs43KT51LVskSD6" target="_blank">
+
+<img src="IMG/UBICACION.png" class="foto">
+
+</a>
+
+</div>
+
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CECYTE EMSaD 45 - Docentes</title>
+
+<style>
+
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#dfe6ee;
+}
+
+/* HEADER */
+
+header{
+    background: linear-gradient(to right,#6a11cb,#2575fc);
+    color:white;
+    padding:25px;
+    border-bottom:5px solid #ff00ff;
+}
+
+/* CONTENEDOR */
+
+.contenedor{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+/* LOGO */
+
+.logo{
+    width:210px;
+    background:white;
+    border-radius:20px;
+    padding:15px;
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+}
+
+.logo img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* TEXTOS */
+
+.textos{
+    flex:1;
+    text-align:center;
+}
+
+.textos h1{
+    font-size:45px;
+    font-weight:bold;
+    text-shadow:3px 3px 0px #ff4d6d;
+}
+
+.linea{
+    width:120px;
+    height:5px;
+    background:#00ffe7;
+    margin:15px auto;
+    border-radius:10px;
+}
+
+.textos h2{
+    color:#ffe600;
+    font-size:28px;
+    margin-top:10px;
+}
+
+/* MENU */
+
+.menu{
+    background:#4b0082;
+    padding:18px;
+    text-align:center;
+    box-shadow:0 5px 10px rgba(0,0,0,0.3);
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-size:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.menu a:hover{
+    color:#00ffe7;
+}
+
+/* MAIN */
+
+main{
+    width:90%;
+    margin:40px auto;
+}
+
+/* TITULO */
+
+.titulo{
+    text-align:center;
+    font-size:50px;
+    color:#243b5a;
+    margin-bottom:40px;
+}
+
+/* TARJETAS */
+
+.contenedor-tarjetas{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    justify-content:center;
+}
+
+.tarjeta{
+    width:320px;
+    background:white;
+    border-radius:25px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+    border-top:6px solid #00ffe7;
+    transition:0.3s;
+}
+
+.tarjeta:hover{
+    transform:translateY(-10px);
+}
+
+.tarjeta h3{
+    color:#6a11cb;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.tarjeta h4{
+    color:#2575fc;
+    margin:10px 0;
+}
+
+.tarjeta p{
+    font-size:18px;
+    margin:8px 0;
+    color:#333;
+}
+
+/* FOTOS */
+
+.foto{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #00ffe7;
+    margin-bottom:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* FOOTER */
+
+footer{
+    background:#1b1b2f;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+    font-size:18px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.contenedor{
+    flex-direction:column;
+    text-align:center;
+}
+
+.textos h1{
+    font-size:30px;
+}
+
+.menu a{
+    display:block;
+    margin:15px 0;
+}
+
+.titulo{
+    font-size:35px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+<div class="contenedor">
+
+<div class="logo">
+
+<img src="IMG/cecyteo.jpeg" alt="Logo">
+
+</div>
+
+<div class="textos">
+
+<h1>
+COLEGIO DE ESTUDIOS CIENTÍFICOS Y
+TECNOLÓGICOS DEL ESTADO DE OAXACA
+</h1>
+
+<div class="linea"></div>
+
+<h2>"CECYTE EMSaD 45 SAN PABLO TIJALTEPEC"</h2>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- MENU -->
+
+<nav class="menu">
+
+<a href="index.html.html">INICIO</a>
+
+<a href="inscripcion.html.html">INSCRIPCIÓN</a>
+
+<a href="beca.html.html">BECAS</a>
+
+<a href="actividades.html.html">ACTIVIDADES</a>
+
+<a href="pec.html.html">PEC</a>
+
+</nav>
+
+<!-- CONTENIDO -->
+
+<main>
+
+<h1 class="titulo">
+PERSONAL DOCENTE Y DIRECTIVOS
+</h1>
+
+<div class="contenedor-tarjetas">
+
+<!-- DIRECTOR -->
+
+<div class="tarjeta">
+
+<h3>LIC. JOSÉ LUIS MORALES MARTÍNEZ</h3>
+
+<img src="IMG/dire.jfif" class="foto">
+
+<h4>Director</h4>
+
+<p>Lic. en Contaduría Pública</p>
+
+<p>📧 emsad45@cecyteo.edu.mx</p>
+
+<p>📱 951 182 4783</p>
+
+</div>
+
+<!-- SUBDIRECTOR -->
+
+<div class="tarjeta">
+
+<h3>ALEXIS GERMÁN CALDERÓN MEJÍA</h3>
+
+<img src="IMG/sub.jfif" class="foto">
+
+<h4>Subdirector</h4>
+
+<p>📱 33 1744 5227</p>
+
+</div>
+
+<!-- DOCENTE -->
+
+<div class="tarjeta">
+
+<h3>MTRA. PAULA LIDIA SÁNCHEZ</h3>
+
+<img src="IMG/pau.jfif" class="foto">
+
+<h4>Docente</h4>
+
+<p>Ciencias Naturales y Tecnología</p>
+
+<p>📱 951 157 1648</p>
+
+</div>
+
+<!-- DOCENTE -->
+
+<div class="tarjeta">
+
+<h3>LIC. ANA IRENE RÍOS MENDOZA</h3>
+
+<img src="IMG/ana.jpg" class="foto">
+
+<h4>Docente</h4>
+
+<p>Lenguaje y Comunicación</p>
+
+<p>📧 emsad45@cecyteo.edu.mx</p>
+
+<p>📱 951 655 2944</p>
+
+</div>
+
+<!-- DOCENTE -->
+
+<div class="tarjeta">
+
+<h3>MTRO. ROGELIO BAUTISTA BARRIOS</h3>
+
+<img src="IMG/rogelio.jfif" class="foto">
+
+<h4>Profesor Titular</h4>
+
+<p>📧 rbbarrios78@gmail.com</p>
+
+<p>📱 951 411 1574</p>
+
+</div>
+
+<!-- DOCENTE -->
+
+<div class="tarjeta">
+
+<h3>LIC. LISETTE ROSADO ORTIZ</h3>
+
+<img src="IMG/liset.jfif" class="foto">
+
+<h4>Docente</h4>
+
+<p>Ciencias Sociales y Humanidades</p>
+
+<p>📧 lisetteros1179@gmail.com</p>
+
+<p>📱 951 249 8805</p>
+
+</div>
+
+<!-- DOCENTE -->
+
+<div class="tarjeta">
+
+<h3>LIC. MAEVA CABRERA VEGA</h3>
+
+<img src="IMG/maeva.jpg" class="foto">
+
+<h4>Docente</h4>
+
+<p>📱 951 223 1576</p>
+
+</div>
+
+<!-- DOCENTE -->
+
+<div class="tarjeta">
+
+<h3>ING. SANTA DALEA LEÓN SANTIAGO</h3>
+
+<img src="IMG/santa.jfif" class="foto">
+
+<h4>Ingeniera en Sistemas Computacionales</h4>
+
+</div>
+
+</div>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+<!-- ICONOS -->
+
+<div class="redes">
+
+<a href="https://www.facebook.com/share/1DzuHPwMHF/?mibextid=wwXIfr" target="_blank">
+
+<img src="IMG/FACE.jfif" class="foto">
+
+</a>
+
+<a href="https://wa.me/529512576743" target="_blank">
+
+<img src="IMG/WHAS.png" class="foto">
+
+</a>
+
+<a href="https://maps.app.goo.gl/bvTs43KT51LVskSD6" target="_blank">
+
+<img src="IMG/UBICACION.png" class="foto">
+
+</a>
+
+</div>
+
+</footer>
+
+</body>
+
+</html>
+

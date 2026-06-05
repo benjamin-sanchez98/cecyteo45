@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CECYTE EMSaD 45 - Becas</title>
+
+<style>
+
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#dfe6ee;
+}
+
+/* HEADER */
+
+header{
+    background: linear-gradient(to right,#6a11cb,#2575fc);
+    color:white;
+    padding:25px;
+    border-bottom:5px solid #ff00ff;
+}
+
+/* CONTENEDOR */
+
+.contenedor{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+/* LOGO */
+
+.logo{
+    width:210px;
+    background:white;
+    border-radius:20px;
+    padding:15px;
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+}
+
+.logo img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* TEXTOS */
+
+.textos{
+    flex:1;
+    text-align:center;
+}
+
+.textos h1{
+    font-size:45px;
+    font-weight:bold;
+    text-shadow:3px 3px 0px #ff4d6d;
+}
+
+.linea{
+    width:120px;
+    height:5px;
+    background:#00ffe7;
+    margin:15px auto;
+    border-radius:10px;
+}
+
+.textos h2{
+    color:#ffe600;
+    font-size:28px;
+    margin-top:10px;
+}
+
+/* MENU */
+
+.menu{
+    background:#4b0082;
+    padding:18px;
+    text-align:center;
+    box-shadow:0 5px 10px rgba(0,0,0,0.3);
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-size:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.menu a:hover{
+    color:#00ffe7;
+}
+
+/* MAIN */
+
+main{
+    width:90%;
+    margin:40px auto;
+}
+
+/* TITULO */
+
+.titulo{
+    text-align:center;
+    font-size:55px;
+    color:#243b5a;
+    margin-bottom:40px;
+}
+
+/* TARJETAS */
+
+.contenedor-tarjetas{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    justify-content:center;
+}
+
+.tarjeta{
+    flex:1;
+    min-width:320px;
+    background:white;
+    border-radius:25px;
+    padding:30px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+    border-top:6px solid #00ffe7;
+    transition:0.3s;
+}
+
+.tarjeta:hover{
+    transform:translateY(-10px);
+}
+
+.tarjeta h2,
+.tarjeta h3{
+    text-align:center;
+    color:#6a11cb;
+    margin-bottom:20px;
+    font-size:30px;
+}
+
+.tarjeta p{
+    font-size:19px;
+    line-height:1.7;
+    color:#333;
+    margin:10px 0;
+}
+
+/* IMAGENES */
+
+.centrado{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.centrado img{
+    width:100%;
+    max-width:300px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* FOTOS */
+
+.foto{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #00ffe7;
+    margin-bottom:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* FOOTER */
+
+footer{
+    background:#1b1b2f;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+    font-size:18px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.contenedor{
+    flex-direction:column;
+    text-align:center;
+}
+
+.textos h1{
+    font-size:30px;
+}
+
+.menu a{
+    display:block;
+    margin:15px 0;
+}
+
+.titulo{
+    font-size:40px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+<div class="contenedor">
+
+<div class="logo">
+
+<img src="IMG/cecyteo.jpeg" alt="Logo">
+
+</div>
+
+<div class="textos">
+
+<h1>
+COLEGIO DE ESTUDIOS CIENTÍFICOS Y
+TECNOLÓGICOS DEL ESTADO DE OAXACA
+</h1>
+
+<div class="linea"></div>
+
+<h2>"CECYTE EMSaD 45 SAN PABLO TIJALTEPEC"</h2>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- MENU -->
+
+<nav class="menu">
+
+<a href="index.html.html">INICIO</a>
+
+<a href="inscripcion.html.html">INSCRIPCIÓN</a>
+
+<a href="docente.html.html">DOCENTES</a>
+
+<a href="actividades.html.html">ACTIVIDADES</a>
+
+<a href="pec.html.html">PEC</a>
+
+</nav>
+<!-- CONTENIDO -->
+
+<main>
+
+<h1 class="titulo">BECAS</h1>
+
+<div class="contenedor-tarjetas">
+
+<!-- TARJETA 1 -->
+
+<div class="tarjeta">
+
+<h2>BECA BENITO JUÁREZ</h2>
+
+<div class="centrado">
+
+<img src="img/BECA.jfif" alt="Beca Benito Juárez">
+
+</div>
+
+<p>
+
+La Beca Benito Juárez es un programa del Gobierno de México que brinda apoyo económico a estudiantes de escuelas públicas para evitar la deserción escolar.
+
+</p>
+
+<p>
+
+El apoyo económico es de:
+
+</p>
+
+<p style="font-size:35px; text-align:center; color:#2575fc; font-weight:bold;">
+
+$1,900 pesos bimestrales
+
+</p>
+
+<p>
+
+Este apoyo ayuda a cubrir gastos escolares, transporte, útiles y alimentación.
+
+</p>
+
+<div class="centrado">
+
+<img src="img/DINERO.jfif" alt="Dinero">
+
+</div>
+
+</div>
+
+<!-- TARJETA 2 -->
+
+<div class="tarjeta">
+
+<h2>BECA INPI</h2>
+
+<div class="centrado">
+
+<img src="img/INPI.jfif" alt="INPI">
+
+</div>
+
+<p><strong>DOCUMENTOS:</strong></p>
+
+<p>1.-Acta de nacimiento</p>
+<p>2.-CURP actualizada</p>
+<p>3.- Identificación oficial vigente</p>
+<p>4.- Constancia de inscripción</p>
+<p>5.- Comprobante de domicilio</p>
+<p>6.- Constancia indígena o afromexicana</p>
+<p>7.-Dos fotos tamaño infantil</p>
+</div>
+
+<!-- TARJETA 3 -->
+
+<div class="tarjeta">
+
+<h2>¿QUÉ OFRECE?</h2>
+<div class="centrado">
+
+<img src="img/albergue.jfif" alt="INPI">
+
+</div>
+
+<p>1.- Apoyo económico mensual</p>
+
+<p>2.- Ayuda para transporte y materiales</p>
+
+<p>3.-Apoyo para alimentación</p>
+
+<p>4.- Becas para licenciatura y maestría</p>
+
+<p>5.-Apoyo para tesis y titulación</p>
+
+<p>6.-Posibilidad de renovación</p>
+
+<p>7.-En algunos casos hospedaje</p>
+
+<p>8.-Busca evitar la deserción escolar</p>
+
+<p>9.-Apoyo académico y económico</p>
+
+</div>
+
+</div>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+<!-- ICONOS -->
+
+<div class="redes">
+
+<a href="https://www.facebook.com/share/1DzuHPwMHF/?mibextid=wwXIfr" target="_blank">
+
+<img src="IMG/FACE.jfif" class="foto">
+
+</a>
+
+<a href="https://wa.me/529512576743" target="_blank">
+
+<img src="IMG/WHAS.png" class="foto">
+
+</a>
+
+<a href="https://maps.app.goo.gl/bvTs43KT51LVskSD6" target="_blank">
+
+<img src="IMG/UBICACION.png" class="foto">
+
+</a>
+
+</div>
+
+</footer>
+
+</body>
+
+</html>

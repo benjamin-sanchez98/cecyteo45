@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CECYTE EMSaD 45</title>
+
+<style>
+
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#dfe6ee;
+}
+
+/* HEADER */
+
+header{
+    background: linear-gradient(to right,#6a11cb,#2575fc);
+    color:white;
+    padding:25px;
+    border-bottom:5px solid #ff00ff;
+}
+
+/* CONTENEDOR */
+
+.contenedor{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+/* LOGO */
+
+.logo{
+    width:210px;
+    background:white;
+    border-radius:20px;
+    padding:15px;
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+}
+
+.logo img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* TEXTOS */
+
+.textos{
+    flex:1;
+    text-align:center;
+}
+
+.textos h1{
+    font-size:45px;
+    font-weight:bold;
+    text-shadow:3px 3px 0px #ff4d6d;
+}
+
+.linea{
+    width:120px;
+    height:5px;
+    background:#00ffe7;
+    margin:15px auto;
+    border-radius:10px;
+}
+
+.textos h2{
+    color:#ffe600;
+    font-size:28px;
+    margin-top:10px;
+}
+
+/* MENU */
+
+.menu{
+    background:#4b0082;
+    padding:18px;
+    text-align:center;
+    box-shadow:0 5px 10px rgba(0,0,0,0.3);
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-size:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.menu a:hover{
+    color:#00ffe7;
+}
+
+/* MAIN */
+
+main{
+    width:90%;
+    margin:40px auto;
+}
+
+/* TITULO */
+
+.titulo{
+    text-align:center;
+    font-size:55px;
+    color:#243b5a;
+    margin-bottom:40px;
+}
+
+/* TARJETAS */
+
+.contenedor-tarjetas{
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.tarjeta{
+    flex:1;
+    min-width:280px;
+    background:white;
+    border-radius:25px;
+    padding:30px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+    border-top:6px solid #00ffe7;
+    transition:0.3s;
+}
+
+.tarjeta:hover{
+    transform:translateY(-10px);
+}
+
+.tarjeta h2{
+    text-align:center;
+    color:#6a11cb;
+    margin-bottom:20px;
+    font-size:28px;
+}
+
+.tarjeta p{
+    font-size:20px;
+    margin:12px 0;
+    color:#333;
+}
+
+/* FOTOS */
+
+.foto{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #00ffe7;
+    margin-bottom:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* FOOTER */
+
+footer{
+    background:#1b1b2f;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+    font-size:18px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.contenedor{
+    flex-direction:column;
+    text-align:center;
+}
+
+.textos h1{
+    font-size:30px;
+}
+
+.menu a{
+    display:block;
+    margin:15px 0;
+}
+
+.titulo{
+    font-size:40px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+<div class="contenedor">
+
+<div class="logo">
+
+<img src="IMG/cecyteo.jpeg" alt="Logo">
+
+</div>
+
+<div class="textos">
+
+<h1>
+COLEGIO DE ESTUDIOS CIENTÍFICOS Y
+TECNOLÓGICOS DEL ESTADO DE OAXACA
+</h1>
+
+<div class="linea"></div>
+
+<h2>"CECYTE EMSaD 45 SAN PABLO TIJALTEPEC"</h2>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- MENU -->
+
+<nav class="menu">
+
+<a href="index.html.html">INICIO</a>
+
+<a href="beca.html.html">BECAS</a>
+
+<a href="docente.html.html">DOCENTES</a>
+
+<a href="actividades.html.html">ACTIVIDADES</a>
+
+<a href="pec.html.html">PEC</a>
+
+</nav>
+
+<!-- CONTENIDO -->
+
+<main>
+
+<h1 class="titulo">INSCRIPCIÓN</h1>
+
+<div class="contenedor-tarjetas">
+
+<!-- TARJETA 1 -->
+
+<div class="tarjeta">
+
+<h2>DOCUMENTOS</h2>
+
+<p>📄 Acta de nacimiento</p>
+
+<p>🪪 CURP</p>
+
+<p>🎓 Certificado de secundaria</p>
+
+<p>📘 Boleta de calificaciones</p>
+
+<p>📷 2 fotos tamaño infantil</p>
+
+</div>
+
+<!-- TARJETA 2 -->
+
+<div class="tarjeta">
+
+<h2>FECHAS</h2>
+
+<p>🗓️ Fase 1:</p>
+
+<p>03 de marzo al 19 de marzo</p>
+
+<br>
+
+<p>🗓️ Fase 2:</p>
+
+<p>21 de marzo al 21 de mayo</p>
+
+</div>
+
+<!-- TARJETA 3 -->
+
+<div class="tarjeta">
+
+<h2>COSTO</h2>
+
+<p style="text-align:center; font-size:40px; color:#2575fc;">
+GRATUITO
+</p>
+
+</div>
+
+</div>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+<!-- ICONOS -->
+
+<div class="redes">
+
+<a href="https://www.facebook.com/share/1DzuHPwMHF/?mibextid=wwXIfr" target="_blank">
+
+<img src="IMG/FACE.jfif" class="foto">
+
+</a>
+
+<a href="https://wa.me/529512576743" target="_blank">
+
+<img src="IMG/WHAS.png" class="foto">
+
+</a>
+
+<a href="https://maps.app.goo.gl/bvTs43KT51LVskSD6" target="_blank">
+
+<img src="IMG/UBICACION.png" class="foto">
+
+</a>
+
+</div>
+
+</footer>
+

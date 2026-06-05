@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CECYTE EMSaD 45</title>
+
+<style>
+
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#dfe6ee;
+}
+
+/* HEADER */
+
+header{
+    background: linear-gradient(to right,#6a11cb,#2575fc);
+    color:white;
+    padding:25px;
+    border-bottom:5px solid #ff00ff;
+}
+
+/* CONTENEDOR */
+
+.contenedor{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+/* LOGO */
+
+.logo{
+    width:210px;
+    background:white;
+    border-radius:20px;
+    padding:15px;
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+}
+
+.logo img{
+    width:100%;
+    border-radius:10px;
+}
+
+/* TEXTOS */
+
+.textos{
+    flex:1;
+    text-align:center;
+}
+
+.textos h1{
+    font-size:45px;
+    font-weight:bold;
+    text-shadow:3px 3px 0px #ff4d6d;
+}
+
+.linea{
+    width:120px;
+    height:5px;
+    background:#00ffe7;
+    margin:15px auto;
+    border-radius:10px;
+}
+
+.textos h2{
+    color:#ffe600;
+    font-size:28px;
+    margin-top:10px;
+}
+
+/* MENÚ */
+
+.menu{
+    background:#4b0082;
+    padding:18px;
+    text-align:center;
+    box-shadow:0 5px 10px rgba(0,0,0,0.3);
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-size:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.menu a:hover{
+    color:#00ffe7;
+}
+
+/* CONTENIDO */
+
+main{
+    width:90%;
+    margin:40px auto;
+    background:#f1f1f1;
+    border-radius:25px;
+    padding:40px;
+    border-top:6px solid #00ffe7;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
+
+/* TITULOS */
+
+main h2{
+    text-align:center;
+    font-size:45px;
+    color:#243b5a;
+    margin-bottom:25px;
+}
+
+/* VIDEO */
+
+video{
+    width:100%;
+    border-radius:20px;
+    margin-bottom:30px;
+}
+
+/* TEXTO */
+
+.normal{
+    font-size:20px;
+    line-height:1.8;
+    text-align:justify;
+    color:#333;
+}
+
+/* MISION Y VISION */
+
+.contenedor-mision-vision{
+    display:flex;
+    gap:25px;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+
+.tarjeta{
+    flex:1;
+    background:linear-gradient(to right,#2575fc,#6a11cb);
+    color:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.tarjeta h2{
+    color:#ffe600;
+    margin-bottom:15px;
+}
+
+/* FOTOS */
+
+.foto{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #00ffe7;
+    margin-bottom:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* FOOTER */
+
+footer{
+    background:#1b1b2f;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+    font-size:18px;
+}
+
+/* REDES */
+
+.footer-redes{
+    text-align:center;
+    background:#1b1b2f;
+    padding-bottom:25px;
+}
+
+.footer-redes img{
+    width:55px;
+    height:55px;
+    margin:10px;
+    border-radius:50%;
+    transition:0.3s;
+}
+
+.footer-redes img:hover{
+    transform:scale(1.1);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+
+.contenedor{
+    flex-direction:column;
+    text-align:center;
+}
+
+.textos h1{
+    font-size:30px;
+}
+
+.menu a{
+    display:block;
+    margin:15px 0;
+}
+
+.contenedor-mision-vision{
+    flex-direction:column;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+<div class="contenedor">
+
+<div class="logo">
+<img src="img/cecyteo.jpeg" alt="Logo">
+</div>
+
+<div class="textos">
+
+<h1>
+COLEGIO DE ESTUDIOS CIENTÍFICOS Y
+TECNOLÓGICOS DEL ESTADO DE OAXACA
+</h1>
+
+<div class="linea"></div>
+
+<h2>"CECYTE EMSaD 45 SAN PABLO TIJALTEPEC"</h2>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- MENÚ -->
+
+<!-- MENÚ -->
+
+<nav class="menu">
+
+<a href="inscripcion.html.html">INSCRIPCIÓN</a>
+
+<a href="beca.html.html">BECAS</a>
+
+<a href="docente.html.html">DOCENTES</a>
+
+<a href="actividades.html.html">ACTIVIDADES</a>
+
+<a href="pec.html.html">PEC</a>
+
+</nav>
+
+<!-- CONTENIDO -->
+
+<main>
+
+<h2>BIENVENIDOS</h2>
+
+<video controls poster="img/todo_a_un_clic.jpg">
+
+<source src="video/2.mp4" type="video/mp4">
+
+</video>
+
+<h2>Historia de la Institución</h2>
+
+<p class="normal">
+
+El Colegio de Estudios Científicos y Tecnológicos del Estado de Oaxaca EMSaD 45 “San Pablo Tijaltepec” fue solicitado en el año 2003 por el señor Caterino García Silva, quien en ese entonces se desempeñaba como presidente municipal.
+
+Este colegio inició sus labores en aulas provisionales durante el mismo año 2003; sin embargo, con la intención de mejorar sus condiciones, mediante una reunión comunitaria se determinó reubicarlo en el lugar denominado “Shinindeu”.
+
+Las primeras aulas comenzaron a construirse a finales de 2004 y principios de 2005 gracias al apoyo y recursos de los gobiernos municipal y estatal.
+
+Actualmente, el CECyTE EMSaD 45 representa el nivel educativo más alto existente en San Pablo Tijaltepec.
+
+</p>
+
+<!-- MISION Y VISION -->
+
+<div class="contenedor-mision-vision">
+
+<div class="tarjeta">
+
+<h2>Misión</h2>
+
+<p>
+
+Brindar educación media superior presencial de calidad,
+con pensamiento crítico, habilidades digitales y valores humanos.
+
+</p>
+
+</div>
+
+<div class="tarjeta">
+
+<h2>Visión</h2>
+
+<p>
+
+Ser una institución educativa reconocida por su excelencia académica,
+innovación y formación integral en la Mixteca Alta.
+
+</p>
+
+</div>
+
+</div>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+
+
+</footer>
+
+<!-- REDES -->
+<footer>
+<!-- ICONOS -->
+
+<div class="redes">
+
+<a href="https://www.facebook.com/share/1DzuHPwMHF/?mibextid=wwXIfr" target="_blank">
+
+<img src="IMG/FACE.jfif" class="foto">
+
+</a>
+
+<a href="https://wa.me/529512576743" target="_blank">
+
+<img src="IMG/WHAS.png" class="foto">
+</a>
+
+<a href="https://maps.app.goo.gl/bvTs43KT51LVskSD6" target="_blank">
+
+<img src="IMG/UBICACION.png" class="foto">
+
+</a>
+
+</div>
+
+</footer>
+
+</body>
+</html>
+
+
+
